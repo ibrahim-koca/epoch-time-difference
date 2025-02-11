@@ -17,7 +17,10 @@ EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat 
 
 - [indir](https://github.com/ibrahim-koca/epoch-time-difference/archive/refs/heads/main.zip)
 
-- Depoyu Klonla: `git clone https://github.com/ibrahim-koca/epoch-time-difference.git`
+- Depoyu Klonla:
+```
+git clone https://github.com/ibrahim-koca/epoch-time-difference.git
+```
 
 ## Neler Dahil
 
@@ -35,12 +38,27 @@ Bu proje, tarih ve saatle ilgili hesaplamalar yapan uygulamalara örnek teşkil 
 ## Kurulum
 
 1. Terminal veya komut satırını açın.
-2.  Depoyu klonlayın: `git clone https://github.com/ibrahim-koca/epoch-time-difference.git`
-3.  Klasöre gidin: `cd epoch-time-difference`
-4.  Programı derleyin: `gcc main.c -o epoch_diff`<br>
-Windows kullananlar için: `gcc main.c -o epoch_diff.exe`<br>
-`epoch_diff.exe`
-5.  Programı çalıştırın: `./epoch_diff`
+2.  Depoyu klonlayın:
+```
+git clone https://github.com/ibrahim-koca/epoch-time-difference.git
+```
+3.  Klasöre gidin:
+```
+cd epoch-time-difference
+```
+4.  Programı derleyin:
+```
+gcc main.c -o epoch_diff
+```
+Windows kullananlar için:
+```
+gcc main.c -o epoch_diff.exe
+epoch_diff.exe
+```
+5.  Programı çalıştırın:
+```
+./epoch_diff
+```
 
 ## Nasıl Kullanılır
 
