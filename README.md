@@ -1,45 +1,36 @@
-# epoch-time-difference
-Zaman Farkı Hesaplama Programı
-Bu proje, kullanıcıdan alınan iki tarih ve saat bilgisinin farkını hesaplayan bir C programıdır. Programda struct ve union veri yapıları kullanılmıştır. Hesaplama epoch zamanı kullanılarak yapılır.
+<h3 align="center">EpochTimeDiffCalculator</h3>
+<p align="center">
+      Zamanı, saniyelerle ölçün: epoch tabanlı zaman farkı hesaplama uygulaması.
 
-Proje Açıklaması
-Bu C programı, kullanıcının girdiği iki tarih ve saat arasındaki farkı hesaplamak için geliştirilmiştir. Programda, struct veri yapısı ile tarih ve saat bilgileri alınır. Ardından bu bilgiler epoch zamanına dönüştürülür ve iki tarih arasındaki fark saniye cinsinden hesaplanır.
+## Epoch Time Difference Calculator
+EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat arasındaki zaman farkını hesaplamak için epoch zamanı (Unix timestamp) kullanır. Bu uygulama, tarih ve saat bilgilerini saniyelerle ölçmek için epoch sistemine dönüştürür ve iki farklı tarih arasındaki farkı saniye cinsinden gösterir.
 
-Program, mktime fonksiyonunu kullanarak tarihleri epoch zamanına dönüştürür ve difftime fonksiyonu ile iki tarih arasındaki farkı bulur.
+####  Özellikler
+**Tarih ve Saat Girişi:** Kullanıcı, istediği iki tarih ve saati girebilir.<br><br>
+**Epoch Zamanı Hesaplama:** Uygulama, verilen tarihleri epoch zamanına dönüştürür (1 Ocak 1970'ten itibaren geçen saniyeler).<br><br>
+**Zaman Farkı Hesaplama:** İki tarih arasındaki zaman farkı saniye cinsinden hesaplanır ve kullanıcıya sunulur.<br><br>
+**Kolay Kullanım:** Uygulama, kullanıcı dostu bir arayüze sahiptir ve tarih-giriş işlemleri oldukça basittir.<br><br>
+Bu proje, tarih ve saatle ilgili hesaplamalar yapan uygulamalara örnek teşkil eder. Epoch zamanı kullanarak, farklı zaman dilimlerinde hesaplamalar yapabilir ve bir tarihsel olayla ilgili detaylı bilgi elde edebilirsiniz.
 
-Kullanılan Bileşenler
-struct TarihSaat: Tarih ve saat bilgilerini tutmak için kullanılan yapı.
-union EpochZaman: Tarih ve saat bilgisini epoch zamanına dönüştürmek için kullanılan yapı.
-mktime: Tarih bilgisini epoch zamanına dönüştürmek için kullanılan fonksiyon.
-difftime: İki epoch zamanı arasındaki farkı hesaplamak için kullanılan fonksiyon.
-Programın Çalışma Prensibi
-Kullanıcıdan iki tarih ve saat bilgisi alınır.
-Bu bilgiler, struct veri yapısına yerleştirilir.
-Her iki tarih mktime fonksiyonu ile epoch zamanına dönüştürülür.
-İki epoch zamanı arasındaki fark difftime fonksiyonu ile hesaplanır.
-Hesaplanan fark ekrana yazdırılır.
-Günlük Hayattan Uygulama
-Bu program, günlük hayatta çeşitli zaman hesaplamalarını yapmak için kullanılabilir. Örneğin:
+- [Hızlı Başlangıç](#hızlı-başlangıç)
+- [Neler Dahil](#neler-dahil)
+- [Özellikler](#özellikler)
 
-İki etkinlik arasındaki zaman farkını hesaplamak.
-Bir proje için başlangıç ve bitiş zamanı arasındaki farkı bulmak.
-Bir trenin kalkış ve varış saatleri arasındaki farkı hesaplamak.
-Nasıl Çalıştırılır?
-Bu programı çalıştırmak için, C derleyicisi kullanmanız gerekmektedir. Programı derleyip çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-Terminal veya komut satırını açın.
+## Hızlı Başlangıç
 
-Programı derlemek için şu komutu kullanın:
+- [En son sürümü indir](https://github.com/ibrahim-koca/epoch-time-difference/archive/refs/heads/main.zip)
 
-bash
-Kopyala
-Düzenle
-gcc main.c -o zamanfarki
-Programı çalıştırmak için aşağıdaki komutu girin:
+- Depoyu Klonla: `git clone https://github.com/ibrahim-koca/epoch-time-difference.git`
 
-bash
-Kopyala
-Düzenle
-./zamanfarki
-Program çalışmaya başladığında, kullanıcıdan iki tarih ve saat girmesi istenir. Sonuç olarak, iki tarih arasındaki fark saniye cinsinden hesaplanıp ekrana yazdırılır.
+## Neler Dahil
 
+Dosya içerisinde uygulama kodları mevcttur.
+
+## Özellikler
+
+- Tarih ve Saat Girişi: Kullanıcı, istediği iki tarih ve saati girebilir.
+- Epoch Zamanı Hesaplama: Uygulama, verilen tarihleri epoch zamanına dönüştürür (1 Ocak 1970'ten itibaren geçen saniyeler).
+- Zaman Farkı Hesaplama: İki tarih arasındaki zaman farkı saniye cinsinden hesaplanır ve kullanıcıya sunulur.
+- Kolay Kullanım: Uygulama, kullanıcı dostu bir arayüze sahiptir ve tarih-giriş işlemleri oldukça basittir.<br><br>
+Bu proje, tarih ve saatle ilgili hesaplamalar yapan uygulamalara örnek teşkil eder. Epoch zamanı kullanarak, farklı zaman dilimlerinde hesaplamalar yapabilir ve bir tarihsel olayla ilgili detaylı bilgi elde edebilirsiniz.
