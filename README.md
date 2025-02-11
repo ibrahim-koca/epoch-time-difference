@@ -5,6 +5,8 @@
 ## Epoch Time Difference Calculator
 EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat arasındaki zaman farkını hesaplamak için epoch zamanı (Unix timestamp) kullanır. Bu uygulama, tarih ve saat bilgilerini saniyelerle ölçmek için epoch sistemine dönüştürür ve iki farklı tarih arasındaki farkı saniye cinsinden gösterir.
 
+## İçindekiler
+
 - [Hızlı Başlangıç](#hızlı-başlangıç)
 - [Neler Dahil](#neler-dahil)
 - [Özellikler](#özellikler)
