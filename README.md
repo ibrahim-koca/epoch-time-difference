@@ -21,11 +21,8 @@ EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat 
 
 ## Neler Dahil
 
-├── main.c              # Ana kod dosyası<br>
+├── epoch_difference.c  # Ana kod dosyası<br>
 ├── README.md           # Proje açıklama dosyası<br>
-├── demo.mp4            # Uygulamanın çalışmasını gösteren video<br>
-├── Makefile            # Derleme için Makefile (isteğe bağlı)<br>
-
 
 ## Özellikler
 
