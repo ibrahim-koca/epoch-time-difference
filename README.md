@@ -9,6 +9,7 @@ EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat 
 - [Neler Dahil](#neler-dahil)
 - [Özellikler](#özellikler)
 - [Kurulum](#kurulum)
+- [Nasıl Kullanılır](#nasıl-kullanılır)
 - [Günlük Hayatta Kullanım Alanları](#günlük-hayatta-kullanım-alanları)
 
 
@@ -20,7 +21,11 @@ EpochTimeDiffCalculator uygulaması, kullanıcının girdiği iki tarih ve saat 
 
 ## Neler Dahil
 
-Dosya içerisinde uygulama kodları mevcttur.
+├── main.c              # Ana kod dosyası<br>
+├── README.md           # Proje açıklama dosyası<br>
+├── demo.mp4            # Uygulamanın çalışmasını gösteren video<br>
+├── Makefile            # Derleme için Makefile (isteğe bağlı)<br>
+
 
 ## Özellikler
 
@@ -35,9 +40,26 @@ Bu proje, tarih ve saatle ilgili hesaplamalar yapan uygulamalara örnek teşkil 
 1. Terminal veya komut satırını açın.
 2.  Depoyu klonlayın: `git clone https://github.com/ibrahim-koca/epoch-time-difference.git`
 3.  Klasöre gidin: `cd epoch-time-difference`
-4.  Programı derleyin: `gcc main.c -o epoch_diff`
+4.  Programı derleyin: `gcc main.c -o epoch_diff`<br>
+Windows kullananlar için: `gcc main.c -o epoch_diff.exe
+epoch_diff.exe`
 5.  Programı çalıştırın: `./epoch_diff`
 
+## Nasıl Kullanılır
+
+- Program çalıştırıldığında kullanıcıdan iki tarih ve saat bilgisi alır.
+- Bu tarihleri epoch zamanına çevirir.
+- Ardından iki zaman arasındaki farkı saniye cinsinden hesaplar ve ekrana yazdırır.<br>
+Kullanım Örneği:<br>
+```
+Birinci tarihi ve saati giriniz (YYYY MM DD HH MM SS): 2024 02 10 14 30 00
+İkinci tarihi ve saati giriniz (YYYY MM DD HH MM SS): 2024 02 11 16 45 00
+
+Epoch zamanı (saniye olarak):
+Birinci zaman: 1707571800
+İkinci zaman: 1707653100
+İki tarih arasındaki fark: 81300 saniye
+```
 ## Günlük Hayatta Kullanım Alanları  
 
 Bu program, özellikle proje yöneticileri ve ekip yöneticileri için **zaman yönetimi** konusunda büyük kolaylık sağlar. **Proje sürecinin takibi, çalışanların çalışma süreleri ve tatil planlamalarının yönetimi** gibi konularda kullanılabilir.  
